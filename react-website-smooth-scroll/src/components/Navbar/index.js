@@ -1,0 +1,41 @@
+import React from 'react';
+import {Nav, NavbarContainer, NavLogo, MobileIcon,NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from "./NavbarElements";
+import { FaBars } from 'react-icons/fa';
+
+const Navbar = () => {
+        return (
+            <>
+            <Nav>
+                <NavbarContainer>
+                    <NavLogo to="/">
+                        ares
+                    </NavLogo>
+                    <MobileIcon>
+                        <FaBars />
+                    </MobileIcon>
+                    <NavMenu>
+                        <NavItem>
+                            <NavLinks to="about">About</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="discover">Discover</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="services">Services</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="signup">Sign up</NavLinks>
+                        </NavItem>
+                    </NavMenu>
+                    <NavBtn>
+                        <NavBtnLink to="/signin">Sign in</NavBtnLink>
+                    </NavBtn>
+                </NavbarContainer>
+            </Nav>
+            </>
+        );
+};
+
+export default Navbar;
+
+//https://www.youtube.com/watch?v=Nl54MJDR2p8
