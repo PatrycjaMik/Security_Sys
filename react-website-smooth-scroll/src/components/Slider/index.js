@@ -19,7 +19,11 @@ const Slider = () => {
             <SliderH1>Lorum Ipsum lorem</SliderH1>
             <SliderP>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</SliderP>
             <SliderBtnWrapper>
-                <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
+                <Button to="signup" onMouseEnter={onHover}
+                 onMouseLeave={onHover}
+                 primary='true'
+                 dark='true'
+                >
                     Get started {hover ? <ArrowForward /> : <ArrowRight />}
                 </Button>
             </SliderBtnWrapper>
