@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Image from '../../images/background.jpg';
+import Video from '../../videos/video.mp4'
 import {Button} from '../ButtonElement';
 import {SliderContainer, SliderBg, VideoBg, SliderContent, SliderH1, SliderP, SliderBtnWrapper, ArrowForward, ArrowRight} from "./SliderElements";
 
@@ -13,7 +13,7 @@ const Slider = () => {
     return (
         <SliderContainer>
         <SliderBg>
-            <VideoBg src={Image} type='background.jpg' />
+            <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </SliderBg>
             <SliderContent>
             <SliderH1>Lorum Ipsum lorem</SliderH1>
