@@ -1,6 +1,7 @@
 import React from 'react';
 import {Button} from "../ButtonElement";
 import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, Img, ImgWrap} from "./InfoElements";
+import {NavLinks} from "../Navbar/NavbarElements";
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText, darkText, headLine, description, buttonLabel, img, alt}) => {
     return (
@@ -15,6 +16,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, darkText, headL
                              <Subtitle darkText={darkText}>{description}</Subtitle>
                              <BtnWrap>
                                  <Button to="home"
+                                  smooth={true} duration={500} spy={true} exact='true' offset={-80}
                                  >{buttonLabel}</Button>
                              </BtnWrap>
                          </TextWrapper>

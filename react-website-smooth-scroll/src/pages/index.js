@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Slider from "../components/Slider";
 import InfoSection from "../components/InfoSection";
 import Services from "../components/Services";
+import Footer from "../components/Footer";
 import {homeObjOne, homeObjTwo, homeObjThree} from "../components/InfoSection/Data";
 
 
@@ -12,7 +13,7 @@ const Home = () => {
 
     const toggle = () => {
         setIsOpen(!isOpen)
-    }
+    };
 
     return (
         <>
@@ -24,7 +25,7 @@ const Home = () => {
             <InfoSection {...homeObjTwo}/>
             <Services />
             <InfoSection {...homeObjThree}/>
-
+            <Footer />
         </>
     );
 }
