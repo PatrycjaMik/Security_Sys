@@ -51,7 +51,7 @@ export const SliderContent = styled.div`
 `
 
 export const SliderH1 = styled.h1`
-  color: #ffff;
+  color: black;
   font-size: 48px;
   text-align: center;
   
@@ -64,7 +64,7 @@ export const SliderH1 = styled.h1`
 `
 export const SliderP = styled.p`
   margin-top: 24px;
-  color: deeppink;
+  color: black;
   font-size: 24px;
   text-align: center;
   max-width: 600px;

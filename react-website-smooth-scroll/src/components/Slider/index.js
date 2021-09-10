@@ -17,8 +17,8 @@ const Slider = () => {
             <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </SliderBg>
             <SliderContent>
-            <SliderH1>Lorum Ipsum lorem</SliderH1>
-            <SliderP>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</SliderP>
+            <SliderH1>See a different world</SliderH1>
+            <SliderP>Providing Customized Security Solutions</SliderP>
             <SliderBtnWrapper>
                 <Button to="signup" onMouseEnter={onHover}
                  onMouseLeave={onHover}
