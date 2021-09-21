@@ -28,7 +28,7 @@ const SignIn = () => {
                             <FormLabel htmlFor="for">Password</FormLabel>
                             <FormInput type="password" required />
                             <FormButton type="submit">Continue</FormButton>
-                            <Text to="/">Forgot password</Text>
+
                         </Form>
                     </FormContent>
                 </FormWrap>

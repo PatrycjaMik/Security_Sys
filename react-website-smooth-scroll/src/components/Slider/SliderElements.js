@@ -21,7 +21,6 @@ export const SliderContainer = styled.div`
     background: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%),linear-gradient(180deg, rgba(0,0,0,0.2) 0%, transparent 100%);
   }
   `
-
   export const SliderBg = styled.div`
   position: absolute;
     top: 0;

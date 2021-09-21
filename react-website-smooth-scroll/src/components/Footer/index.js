@@ -19,7 +19,7 @@ const Footer = () => {
                                 <FooterLink to="/signin">How</FooterLink>
                                 <FooterLink to="/signin">When</FooterLink>
                                 <FooterLink to="/signin">What</FooterLink>
-                                <FooterLink to="/signin">Where da fuck</FooterLink>
+                                <FooterLink to="/signin">Where</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>About us</FooterLinkTitle>
@@ -27,7 +27,7 @@ const Footer = () => {
                             <FooterLink to="/signin">How</FooterLink>
                             <FooterLink to="/signin">When</FooterLink>
                             <FooterLink to="/signin">What</FooterLink>
-                            <FooterLink to="/signin">Where da fuck</FooterLink>
+                            <FooterLink to="/signin">Where</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
@@ -37,7 +37,7 @@ const Footer = () => {
                             <FooterLink to="/signin">How</FooterLink>
                             <FooterLink to="/signin">When</FooterLink>
                             <FooterLink to="/signin">What</FooterLink>
-                            <FooterLink to="/signin">Where da fuck</FooterLink>
+                            <FooterLink to="/signin">Where</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>About us</FooterLinkTitle>
@@ -45,7 +45,7 @@ const Footer = () => {
                             <FooterLink to="/signin">How</FooterLink>
                             <FooterLink to="/signin">When</FooterLink>
                             <FooterLink to="/signin">What</FooterLink>
-                            <FooterLink to="/signin">Where da fuck</FooterLink>
+                            <FooterLink to="/signin">Where</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
